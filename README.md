@@ -1,1 +1,103 @@
 # puma-oficial-4
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>NOVOA</title>
+<style>
+/* Ejemplo de estilo básico para organizar */
+.topnav {
+  background-color: #ec08b3e7;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #000405;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.row {
+  display: flex;
+}
+.row__column {
+  flex: 1;
+  padding: 10px;
+}
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #06c2f1;
+}
+</style>
+</head>
+<body>
+
+<h1>PUMA OFFICE</h1>
+
+<!-- Crear el menú -->
+<div class="topnav">
+  <a href="https://www.mined.gob.sv/">INICIO</a>
+  <a href="#">MISION</a>
+  <a href="#">VISION</a>
+  <a href="https://www.nintendo.com/us/">NOVOA</a>
+</div>
+
+<!-- Cuerpo de la página -->
+<div class="row">
+  <div class="row__column side">
+    <h2>LEMA</h2>
+    <p>"Forever Faster" (Para Siempre Más Rápido),</p>
+  </div>
+  <div class="row__column middle">
+    <h2>¡ Bienvevidos a Pumas !</h2>
+    <p>Bienvenidos a pumas donde te ofrecemos un estilo unico de vida </p>
+  </div>
+  <div class="row__column side">
+    <h2></h2>
+    <p></p>
+  </div>
+</div>
+
+<!-- Pie de Página -->
+<div class="footer">
+  <h3>No lo pienses solo compralos </h3>
+</div>
+
+<div class="footer">
+  <h3>Te ofrecemos un producto de excelencia calidad </h3>
+</div>
+
+<div class="footer">
+  <h3>creados no para usarlos sino para maltratarlos </h3>
+</div>
+
+<!-- Audio -->
+<audio controls>
+  <source src="musica.aac" type="audio/mp3">
+  Tu navegador no soporta audio HTML5.
+</audio>
+
+<!-- Imágenes en movimiento -->
+<marquee>
+  <img src="Future 7 ultimate.webp" width="400" height="200" alt="Imagen en movimiento">
+</marquee>
+
+<marquee behavior="alternate">
+  <img src="Puma ultra 1.2.jpg" width="400" height="200"
+       onmouseover="this.src='nip2.jpg'"
+       onmouseout="this.src='Cari2.png'"
+       alt="Imagen alternativa">
+</marquee>
+
+<!-- Video -->
+<video width="600" height="400" controls>
+  <source src="video.mp4" type="video/mp4">
+</video>
+
+<!-- Enlaces finales -->
+<p><a href="Base Access China.html">Registros</a></p>
+<p><a href="index.html">A hoja 2</a></p>
+<p><a href="iindex.htm">A hoja 3</a></p>
+
+</body>
+</html>
